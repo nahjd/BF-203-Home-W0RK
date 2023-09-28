@@ -1,0 +1,132 @@
+/* Başlıq */
+header h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+/* Naviqasiya */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Tur seçimi bölməsi */
+.tur-seçim {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tur məlumatları bölməsi */
+.tur-məlumatları h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.tur-məlumatları ul {
+    list-style: disc;
+    padding-left: 30px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* HTML-de olan bütün tagların arxa fon rengini black edir */
+* {
+    background-color: yellow;
+}
+/* .HTML-de olan butun H1 taginin arxa fonu qara reng və Frontend Development yazisini wheat renge teyin edir./ */
+h1{
+    background-color: blue;
+    color: wheat;
+}
+
+/* .HTML-de olan butun heading classinin rengi antiquewhite teyin edir/ */
+.heading{
+    color: antiquewhite;
+}
+
+/* .HTML-de olan butun ul ve ol elementlerin arxa fonunun rengi rgb(72,136,47) ve rengi black teyin edir./ */
+ul,ol{
+    background-color: rgb(131, 89, 35);
+    color: black;
+}
+
+/* HTML-de olan butun main id-in rengini antiquewhite edir/  */
+#main{
+    color: antiquewhite;
+}
+
+/* main klasindan sonra gelen span elementinin rengini antiquawhite edir./ */
+#main+span{
+    color: antiquewhite;
+}
+
+/* .basliq klasi olan div teginin arxa fonu qara reng və Frontend Development yazisini wheat renge teyin edir./ */
+div.basliqtag,div.format{
+    background-color: yellow;
+    color: antiquewhite;
+}
+
+/* .div teqinin icinde olan p elementlerinin rengini qirmizi reng edir/ */
+div>p{
+    color: red;
+}
+
+/* a teqinde olan linkin rengini aqua teyin edir */
+a:link{
+    color: aqua;
+}
+
+/* a teqinde olan linke girdikde linkin rengini qirmizi renge deyisir. */
+a:visited{
+    color: red;
+}
+
+ /* a teqinde olan linke sicanin oxunu getirdikde pink renge cevirir. */
+a:hover:{
+    color:pink
+}
+
+ /* a teqinde olan css klasinda olan linke sicanin oxunu getirdikde red renge cevirir. */
+a.css:hover{
+    color: red;
+}
+
+/* .span teqin icerisinde olan ilk herfin formasini boyudur./ */
+h1::first-letter{
+    font-size: larger;
+    color: red;
+}
+
+/* secdiyimiz hissenin arxa fonunu yellow rengde edir./ */
+::selection{
+    background: yellow;
+}

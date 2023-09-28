@@ -1,0 +1,29 @@
+.balon{
+    background-image: url("./../picture/balon.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    
+}
+.cat{
+    background-image: url("./../picture/cat.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 350px;
+}
+.color{
+    background-image: url("./../picture/color.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    width: 100%;
+    height: 250px ;
+}
+.sky{
+    background-image: url("./../picture/sky.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+
+}
