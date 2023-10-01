@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #031f1a;
+    width: 100%;
+    height: 1500px;
+}
+.main{
+    height: 190px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main h1{
+    color: wheat;
+}
+.main p{
+    color:#a2b9a2;
+}
+
+h1,h2, p{
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    color: white;
+}
+
+#heading{
+    padding-bottom: 20px;
+}
+
+.cards{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 20%;
+}
+
+.first{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #E56534;
+}
+.second{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #F0C17D;
+}
+.third{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #16B77B;
+}
+.fourth{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #14A9B7;
+}
+
+i{
+    color: white;
+    font-size: 2.5em;
+    padding-top: 35px;
+}
+
+button{
+    font-weight: bold;
+}
+
+.firstbutton{
+    padding:10px 15px;
+    background-color: white;
+    border: none;
+    margin-bottom: 40px;
+    color: #E56534;
+}
+
+.sbutton{
+    padding:10px 15px;
+    background-color: #F0C17D;
+    margin-bottom: 40px;
+    color: rgb(219, 97, 26);
+    border: 1px solid white ;
+}
+
+.tbutton{
+    padding:10px 15px;
+    background-color: #16B77B;
+    margin-bottom: 40px;
+    color: rgb(219, 97, 26);
+    border: 1px solid white ;
+}
+
+.fbutton{
+    padding:10px 15px;
+    background-color: #14A9B7;
+    margin-bottom: 40px;
+   color: rgb(219, 97, 26);
+    border: 1px solid white;
+}
+.fixedBtn{
+    background-color: black;
+    color: #49516e;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .oneheader{
+    height: 10px;
+    background-color: #864226;
+  }
+  .twoheader {
+    height: 10px;
+    background-color:  #8a6e46;;
+  }
+  .threeheader {
+    height: 10px;
+    background-color:  #0a5f40;
+  }
+  .fourheader {
+    height: 10px;
+    background-color: #0e585f;
+}
+  
