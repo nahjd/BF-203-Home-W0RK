@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(111,69,211);
+    background: linear-gradient(312deg, rgba(111,69,211,1) 0%, rgba(245,61,104,1) 100%);
+}
+.container{
+    width: 1150px;
+    margin: 0 auto ;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+   width: 1150px;
+}
+
+.left{
+    height: 50vh;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("./../images/images.pg.jpeg");
+    margin-right: 15px;
+    background-repeat: no-repeat;
+
+}
+.left img{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    z-index: -1;
+    max-height: fit-content;
+    object-fit: cover;
+}
+
+.left h2,p.left1.text2{
+    width: 200px;
+    background-color: yellow;
+    font-weight:bold;
+    margin-left: 40px;
+}
+.grid-right .meals,.salary{
+    display: flex;
+    justify-content: center;
+}
+.grid-right .salary{
+    padding-top: 20px;
+    font-size: 1.8em;
+}
+.grid-right .meals{
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.left1.text1{
+    margin-top: 200px;
+    padding: 10px 0;
+}
+
+.grid-right{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto ;
+    width: 45%;
+    box-sizing: border-box;}
+
+.right-item1{
+    display: grid;
+    background-color: #FFC600;
+    max-width: 100%;
+}
+.right-item2{
+    display: grid;
+    background-color: #FFC600;
+    width: 100%;
+}
+.tabs {
+    margin: 10px;
+  }
+  
+  .column-list {
+    display: flex;
+    width: 1200px;
+    margin-top: 30px;
+    font-weight: bold;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  
+  .project {
+    margin: 10px; 
+    background-color: #FFC600;
+    padding: 20px 82px;
+  }
+
+  .cards{
+    display: grid;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .card{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+  }
+  .icon {
+    font-size:2em; 
+  }
+  
+  .featured{
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .taco-photo{
+    height: 260px;
+    width: 290px;
+    overflow: hidden;
+    background-image: url("./../images/tabocco.jpeg");
+    background-color: white ;
+    background-repeat: no-repeat;
+}
+.taco-photo img{
+    max-width: 100%;
+    max-height: fit-content;
+    object-fit: cover;
+   
+    
+}
+.about-taco{
+    display: relative;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+}
+.grams{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(217, 255, 4);
+}
+.abouts{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.images img{
+    width: 240px;
+    height: 240px;
+}
+.bottom{
+    background-color: yellow;
+}
+.abouts.button{
+    background-color: yellow;
+}
