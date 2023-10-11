@@ -1,0 +1,671 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-header-1, header .header-right .biznes, header .header-right .ferdi {
+  width: 70px;
+  height: 40px;
+  background-color: #313131;
+  border-radius: 6px;
+  padding-top: 10px;
+}
+
+.btn-header-2, header .header-right .search, header .header-right .rus, header .header-right .eng, header .header-right .fon {
+  width: 35px;
+  height: 40px;
+  background-color: #1a1a1a;
+  border-radius: 6px;
+  padding-top: 10px;
+  margin-right: 8px;
+}
+
+header .header-left .menu li a {
+  color: white;
+}
+header .header-right .btn {
+  color: white;
+  text-align: center;
+}
+header .header-right .fon {
+  margin-left: 8px;
+}
+header .header-right .fon a {
+  color: black;
+}
+header .header-right .search a {
+  color: white;
+}
+
+nav .navigation ul li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav .phone a {
+  color: orange;
+  font-size: 20px;
+}
+nav .phone a span {
+  color: white;
+}
+
+main #hero-section h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+main #hero-section .card .card-body h3,
+main #hero-section .card .card-body p,
+main #hero-section .card .card-body h2 {
+  color: white;
+}
+main #hero-section .card .card-body h3 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+main #hero-section .card .card-body p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+main #hero-section .card .card-body a {
+  font-size: 35px;
+  color: orange;
+}
+main #hero-section .card .card-body h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+main #hero-section .card .card-body .btn a {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+main #debat-cards .textAboveCard .textWrapper {
+  width: 83%;
+  margin: 0 auto;
+  padding: 20px;
+}
+main #debat-cards .textAboveCard .textWrapper h1 {
+  font-weight: 700;
+  color: #ff6b19;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .cards {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 0 auto;
+}
+main .cards .CardWrapper {
+  padding: 15px 15px;
+}
+main .cards .CardWrapper .card {
+  padding: 10%;
+  background-color: #fafafa;
+  border-radius: 12px;
+}
+main .cards .CardWrapper .card .cardImgWrapper img {
+  margin-bottom: 10px;
+  height: 200px;
+  width: 310px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 12px;
+}
+main .cards .CardWrapper h1 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main .cards .CardWrapper p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+main .cards .CardWrapper button {
+  background-color: #ff6b19;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 37px;
+  right: 70px;
+  top: 50px;
+  font-weight: 600;
+  border: none;
+}
+main .footer-menu {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+main .footer-menu h1 {
+  font-size: 1.6 em;
+}
+@media screen and (max-width: 992px) {
+  main .footer-menu {
+    display: none;
+  }
+}
+main .footer-icons {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+main .footer-icons ul {
+  display: flex;
+  gap: 10px;
+}
+main .footer-icons ul li i {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #A1A1A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+main .footer-icons ul li #first-icon {
+  background-color: #FF7A00;
+}
+main .footer-icons ul li #second-icon {
+  background-color: #FF7A00;
+}
+main .footer-icons p {
+  padding-right: 10px;
+}
+@media screen and (max-width: 992px) {
+  main ul {
+    margin: 0 auto;
+  }
+}
+main hr {
+  color: white;
+}
+main footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+main footer .image-wrapper {
+  display: inline-block;
+}
+main footer .image-wrapper img {
+  width: 80px;
+  height: 45px;
+}
+@media screen and (max-width: 992px) {
+  main footer {
+    display: flex;
+    justify-content: center;
+  }
+  main footer .left-footer {
+    display: none;
+  }
+}
+
+header .header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header-right .fon {
+  background-color: white;
+}
+header .header-right .btn:hover {
+  border: 1px solid orange;
+  color: orange;
+  cursor: pointer;
+}
+
+nav .phone {
+  width: 90px;
+  height: 50px;
+  border: 1px solid white;
+  padding: 12px 0 0 12px;
+  border-radius: 40%;
+}
+nav .phone:hover {
+  background-color: rgba(52, 52, 243, 0.563);
+}
+
+main #hero-section .btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff6400;
+  padding: 15px 0 0 10px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+main #debat-cards .card-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff6400;
+  padding: 15px 0 0 10px;
+}
+main #debat-cards button {
+  border: 1px solid black;
+  background: #ff6400;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+}
+header .container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+header .container .logo img {
+  width: 100%;
+  height: 100%;
+}
+header .container .header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+header .container .header-left .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+nav {
+  width: 100%;
+  height: 7vh;
+}
+nav .container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class|=col] {
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+.footer-menu {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.footer-menu h1 {
+  font-size: 1.6 em;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-menu {
+    display: none;
+  }
+}
+.footer-icons {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.footer-icons ul {
+  display: flex;
+  gap: 10px;
+}
+.footer-icons ul li i {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #A1A1A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-icons ul li #first-icon {
+  background-color: #FF7A00;
+}
+.footer-icons ul li #second-icon {
+  background-color: #FF7A00;
+}
+.footer-icons p {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  ul {
+    margin: 0 auto;
+  }
+}
+hr {
+  color: white;
+}
+
+footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+footer .image-wrapper {
+  display: inline-block;
+}
+footer .image-wrapper img {
+  width: 80px;
+  height: 45px;
+}
+
+.left-footer h3 {
+  color: white;
+}
+.left-footer p {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer .left-footer {
+    display: none;
+  }
+}
+.footer-menu .ul li {
+  color: white;
+}
+
+main {
+  width: 100%;
+}
+main #hero-section {
+  padding-top: 20px;
+  width: 65%;
+  margin: 0 auto;
+}
+main #hero-section .container .card {
+  margin-top: 50px;
+  padding: 40px 0;
+  background-color: #1a1a1a;
+  border-radius: 7px;
+  position: relative;
+}
+main #hero-section .container .card .row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+main #hero-section .container .card .row .card-img-wrapper {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+main #hero-section .container .card .row .card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+main #hero-section .container .card .row .card-body {
+  padding-left: 10px;
+}
+main #hero-section .container .card .row .card-body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main #hero-section .container .card .row .card-body ul li .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #debat-cards {
+  width: 100%;
+  border: 1px solid white;
+  padding: 100px 0px;
+}
+main #debat-cards .container {
+  width: 65%;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+main #debat-cards .container h1 {
+  padding: 45px 0;
+}
+main #debat-cards .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #debat-cards .container .row .card {
+  overflow: hidden;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+main #debat-cards .container .row .card .card-img-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+main #debat-cards .container .row .card .card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main #debat-cards .container .row .card .card-details {
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */

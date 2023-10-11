@@ -1,0 +1,81 @@
+main {
+    width: 100%;
+    #hero-section {
+      padding-top: 20px;
+      width: 65%;
+      margin: 0 auto;
+      .container {
+        .card {
+          margin-top: 50px;
+          padding: 40px 0;
+          background-color: #1a1a1a;
+          border-radius: 7px;
+          position: relative;
+          .row {
+            @include flexbox(center, flex-start);
+  
+            .card-img-wrapper {
+              width: 300px;
+              height: 200px;
+              overflow: hidden;
+              padding-right: 10px;
+              // margin-left: 60px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+  
+            .card-body {
+              // margin-right: 200px;
+              padding-left: 10px;
+              ul {
+                @include flexbox(center, center);
+                gap: 20px;
+                li {
+                  .row {
+                    @include flexbox(center, center);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    #debat-cards {
+      width: 100%;
+      border: 1px solid white;
+      padding: 100px 0px;
+      .container {
+        width: 65%;
+        border: 1px solid white;
+        margin: 0 auto;
+        h1 {
+          padding: 45px 0;
+        }
+        .row {
+          @include flexbox(space-between, center);
+          .card {
+            overflow: hidden;
+            border-radius: 7px;
+            border: 1px solid lightgray;
+            .card-img-wrapper {
+              width: 100%;
+              height: 200px;
+              overflow: hidden;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+            .card-details {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }

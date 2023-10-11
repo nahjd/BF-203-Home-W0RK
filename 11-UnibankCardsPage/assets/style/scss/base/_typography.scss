@@ -1,0 +1,232 @@
+header {
+    .header-left {
+      .menu {
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .header-right {
+      .btn {
+        color: white;
+        text-align: center;
+      }
+      .fon {
+        margin-left: 8px;
+        a {
+          color: black;
+        }
+      }
+      .search a {
+        color: white;
+      }
+    }
+  }
+  
+  nav {
+    .navigation {
+      ul li a {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    .phone {
+      a {
+        color: orange;
+        font-size: 20px;
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+  main {
+    #hero-section {
+      h1 {
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+      }
+      .card {
+        .card-body {
+          h3,
+          p,
+          h2 {
+            color: white;
+          }
+          h3 {
+            font-size: 30px;
+            padding-bottom: 10px;
+          }
+          p {
+            font-size: 20px;
+            padding-bottom: 40px;
+          }
+  
+          a {
+            font-size: 35px;
+            color: orange;
+          }
+          h2 {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .btn {
+            a {
+              color: white;
+              font-size: 20px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  
+    #debat-cards
+.textAboveCard {
+        .textWrapper {
+          width: 83%;
+          margin: 0 auto;
+          padding: 20px;
+          h1 {
+            font-weight: 700;
+            color: #ff6b19;
+            font-size: 33px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        }
+      }
+      .cards {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin: 0 auto;
+        .CardWrapper {
+          padding: 15px 15px;
+          .card {
+            padding: 10%;
+            background-color: #fafafa;
+            border-radius: 12px;
+            .cardImgWrapper {
+              img {
+                margin-bottom: 10px;
+                height: 200px;
+                width: 310px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+                border-radius: 12px;
+              }
+            }
+          }
+          h1 {
+            font-size: 23px;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 10px;
+          }
+          button {
+            background-color: #ff6b19;
+            color: white;
+            border-radius: 25px;
+            padding: 15px 37px;
+            right: 70px;
+            top: 50px;
+            font-weight: 600;
+            border: none;
+          }
+        }
+      }
+  
+      .footer-menu{
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        h1{
+            font-size: 1.6  em;
+        }
+    }
+    
+    @media screen and (max-width:992px){
+        .footer-menu{
+            display: none;
+        }
+    }
+    
+    .footer-icons{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            gap: 10px;
+            li{
+    
+                i{
+                    width: 40px;
+                    height: 40px;
+                    color: white;
+                    background-color: #A1A1A1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+                #first-icon{
+                    background-color: #FF7A00;
+                }
+                #second-icon{
+                    background-color:#FF7A00 ;
+                }
+            }
+        }
+        p{
+            padding-right: 10px;
+        }
+    }
+    
+    @media screen and (max-width:992px){
+        ul{
+            margin: 0 auto;
+        }
+    }
+    
+    hr{
+        color: white;
+    }
+    
+    footer{
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        .image-wrapper{
+            display: inline-block;
+            img{
+                width: 80px;
+                height: 45px;
+            }
+        }
+    }
+    
+    @media screen and (max-width:992px) {
+        footer{
+            display: flex;
+            justify-content: center;
+            .left-footer{
+                display: none;
+            }
+        }
+    }
+}
