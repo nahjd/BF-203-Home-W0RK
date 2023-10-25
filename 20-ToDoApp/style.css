@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 15px 15px 27px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.title {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputData {
+  display: flex;
+  gap: 10px;
+}
+
+.inputData input {
+  width: 85%;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  font-size: 15px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.inputData button {
+  width: 50px;
+  border: none;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  background: #8e49e8;
+  color: rgb(255, 255, 255);
+}
+
+.inputData button:hover {
+  background: #703bb5;
+}
+.inputData button i {
+  margin-top: 5px;
+}
+
+.ClearTask {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ClearTask span {
+  font-size: 1.2em;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.ClearTask button {
+  background: #8e49e8;
+  font-size: 1.1em;
+  padding: 6px 12px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+}
+.ClearTask button:hover {
+  background: #703bb5;
+}
+
+ul li {
+  background-color: #e5e5e5;
+  min-width: 450px;
+  padding: 15px;
+  font-size: 1.2em;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
