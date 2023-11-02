@@ -1,0 +1,39 @@
+{  
+    "singers" :[
+    {
+        "id":1,
+        "name": "Adele",
+        "image":"https://ca-times.brightspotcdn.com/dims4/default/1a071c7/2147483647/strip/true/crop/4130x2753+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F97%2F8efe5252454bb8e81b911ef18f17%2Fbritain-brit-awards-2022-arrivals-05121.jpg",
+        "age":33,
+        "nationality":"British",
+        "genre":"Pop"
+  
+    },
+  
+    {
+        "id":2,
+        "name": "Beyonce",
+        "image":"https://static01.nyt.com/images/2023/02/02/multimedia/01beyonce-item-lmcz/01beyonce-item-lmcz-videoSixteenByNineJumbo1600.jpg",
+        "age":40,
+        "nationality":"American",
+        "genre":"R&8"
+    },
+  
+    {
+        "id":3,
+        "name": "Ed Sheeran",
+        "image":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/12/05/18/Ed-Sheeran.jpg",
+        "age":31,
+        "nationality":"British",
+        "genre":"Pop"
+    },
+    {
+        "id":4,
+        "name": "The Weekend",
+        "image":"https://variety.com/wp-content/uploads/2023/03/GettyImages-1319690083.jpg?w=1000",
+        "age":42,
+        "nationality":"American",
+        "genre":"R&8"
+    }
+  ]
+}

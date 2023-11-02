@@ -1,0 +1,10 @@
+.detailBox .card-img-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.card{
+    display: flex;
+    background-color: black;
+}
