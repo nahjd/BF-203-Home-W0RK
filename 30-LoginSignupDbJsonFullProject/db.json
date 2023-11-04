@@ -1,0 +1,154 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Adele",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/1a071c7/2147483647/strip/true/crop/4130x2753+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F97%2F8efe5252454bb8e81b911ef18f17%2Fbritain-brit-awards-2022-arrivals-05121.jpg",
+      "age": 33,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "name": "Beyonce",
+      "image": "https://static01.nyt.com/images/2023/02/02/multimedia/01beyonce-item-lmcz/01beyonce-item-lmcz-videoSixteenByNineJumbo1600.jpg",
+      "age": 40,
+      "nationality": "American",
+      "genre": "R&8"
+    },
+    {
+      "id": 3,
+      "name": "Ed Sheeran",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/12/05/18/Ed-Sheeran.jpg",
+      "age": 31,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "name": "The Weekend",
+      "image": "https://variety.com/wp-content/uploads/2023/03/GettyImages-1319690083.jpg?w=1000",
+      "age": 42,
+      "nationality": "American",
+      "genre": "R&8"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Nahid",
+      "balance": "300",
+      "email": "Nahid123@gmail.com",
+      "phone": "12345",
+      "password": "nahid123",
+      "order": []
+    },
+    {
+      "id": 2,
+      "username": "Joe",
+      "balance": "400",
+      "email": "Nahid321@gmail.com",
+      "phone": "54321",
+      "password": "nahid321",
+      "order": []
+    },
+    {
+      "id": 3,
+      "username": "July",
+      "balance": "500",
+      "email": "Admin123@gmail.com",
+      "phone": "123",
+      "password": "admin123",
+      "order": []
+    },
+    {
+      "id": 4,
+      "username": "Maks",
+      "balance": "600",
+      "email": "Admin321@gmail.com",
+      "phone": "321",
+      "password": "admin321",
+      "order": []
+    },
+    {
+      "username": "nahid",
+      "email": "nahid",
+      "password": "adsasdasd",
+      "balance": "200",
+      "order": [],
+      "id": 5
+    },
+    {
+      "username": "asdsasd",
+      "email": "asdsadasd",
+      "password": "asdasdasd",
+      "balance": "200",
+      "order": [],
+      "id": 6
+    },
+    {
+      "username": "asdsadsada",
+      "email": "asdsadasd",
+      "password": "asdsadsadsad",
+      "balance": "asdasdasd",
+      "order": [],
+      "id": 7
+    },
+    {
+      "username": "Seid",
+      "email": "Seid2002@gmail.com",
+      "password": "naxid123445646",
+      "balance": "900",
+      "order": [],
+      "id": 8
+    },
+    {
+      "username": "ayxan",
+      "email": "qiweuwqeh@gmadsa",
+      "password": "hasdbhsdjsad",
+      "balance": "500",
+      "order": [],
+      "id": 9
+    },
+    {
+      "username": "Agaa",
+      "email": "Aga313@gmail.com",
+      "password": "aga6754",
+      "balance": "600",
+      "order": [],
+      "id": 10
+    },
+    {
+      "username": "Quo quod dolore sit",
+      "email": "Ut architecto sed do",
+      "password": "Pa$$w0rd!",
+      "balance": "Quae laborum Nihil ",
+      "order": [],
+      "id": 11
+    },
+    {
+      "username": "Nobis reiciendis qui",
+      "email": "Sit voluptas excepte",
+      "password": "Pa$$w0rd!",
+      "balance": "Cumque nulla neque n",
+      "order": [],
+      "id": 12
+    },
+    {
+      "username": "Quibusdam consequatu",
+      "email": "Amet qui dolores ea",
+      "password": "Pa$$w0rd!",
+      "balance": "Obcaecati aliquip ip",
+      "order": [],
+      "id": 13
+    },
+    {
+      "username": "hgjhhj",
+      "email": "uyukgku@",
+      "password": "jlkhkj",
+      "balance": "0",
+      "order": [],
+      "id": 14
+    }
+  ]
+}
