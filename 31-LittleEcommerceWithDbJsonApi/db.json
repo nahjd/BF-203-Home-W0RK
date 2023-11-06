@@ -1,0 +1,273 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Adele",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/1a071c7/2147483647/strip/true/crop/4130x2753+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F97%2F8efe5252454bb8e81b911ef18f17%2Fbritain-brit-awards-2022-arrivals-05121.jpg",
+      "age": 33,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "name": "Beyonce",
+      "image": "https://static01.nyt.com/images/2023/02/02/multimedia/01beyonce-item-lmcz/01beyonce-item-lmcz-videoSixteenByNineJumbo1600.jpg",
+      "age": 40,
+      "nationality": "American",
+      "genre": "R&8"
+    },
+    {
+      "id": 3,
+      "name": "Ed Sheeran",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/12/05/18/Ed-Sheeran.jpg",
+      "age": 31,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "name": "The Weekend",
+      "image": "https://variety.com/wp-content/uploads/2023/03/GettyImages-1319690083.jpg?w=1000",
+      "age": 42,
+      "nationality": "American",
+      "genre": "R&8"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Nahid",
+      "balance": "300",
+      "email": "Nahid123@gmail.com",
+      "phone": "12345",
+      "password": "nahid123",
+      "order": []
+    },
+    {
+      "id": 2,
+      "username": "Joe",
+      "balance": "400",
+      "email": "Nahid321@gmail.com",
+      "phone": "54321",
+      "password": "nahid321",
+      "order": []
+    },
+    {
+      "id": 3,
+      "username": "July",
+      "balance": "500",
+      "email": "Admin123@gmail.com",
+      "phone": "123",
+      "password": "admin123",
+      "order": []
+    },
+    {
+      "id": 4,
+      "username": "Maks",
+      "balance": "600",
+      "email": "Admin321@gmail.com",
+      "phone": "321",
+      "password": "admin321",
+      "order": []
+    },
+    {
+      "username": "nahid",
+      "email": "nahid",
+      "password": "adsasdasd",
+      "balance": "200",
+      "order": [],
+      "id": 5
+    },
+    {
+      "username": "asdsasd",
+      "email": "asdsadasd",
+      "password": "asdasdasd",
+      "balance": "200",
+      "order": [],
+      "id": 6
+    },
+    {
+      "username": "asdsadsada",
+      "email": "asdsadasd",
+      "password": "asdsadsadsad",
+      "balance": "asdasdasd",
+      "order": [],
+      "id": 7
+    },
+    {
+      "username": "Seid",
+      "email": "Seid2002@gmail.com",
+      "password": "naxid123445646",
+      "balance": "900",
+      "order": [],
+      "id": 8
+    },
+    {
+      "username": "ayxan",
+      "email": "qiweuwqeh@gmadsa",
+      "password": "hasdbhsdjsad",
+      "balance": "500",
+      "order": [],
+      "id": 9
+    },
+    {
+      "username": "Agaa",
+      "email": "Aga313@gmail.com",
+      "password": "aga6754",
+      "balance": "600",
+      "order": [],
+      "id": 10
+    },
+    {
+      "username": "Quo quod dolore sit",
+      "email": "Ut architecto sed do",
+      "password": "Pa$$w0rd!",
+      "balance": "Quae laborum Nihil ",
+      "order": [],
+      "id": 11
+    },
+    {
+      "username": "Nobis reiciendis qui",
+      "email": "Sit voluptas excepte",
+      "password": "Pa$$w0rd!",
+      "balance": "Cumque nulla neque n",
+      "order": [],
+      "id": 12
+    },
+    {
+      "username": "Quibusdam consequatu",
+      "email": "Amet qui dolores ea",
+      "password": "Pa$$w0rd!",
+      "balance": "Obcaecati aliquip ip",
+      "order": [],
+      "id": 13
+    },
+    {
+      "username": "hgjhhj",
+      "email": "uyukgku@",
+      "password": "jlkhkj",
+      "balance": "0",
+      "order": [],
+      "id": 14
+    },
+    {
+      "username": "ASDBSAJDBSAD",
+      "password": "AKJSDSHAJDS",
+      "balance": "301",
+      "email": "AKJDHSAJKD@mai",
+      "id": 15
+    },
+    {
+      "username": "Naxidd",
+      "password": "Naxid123",
+      "balance": "620",
+      "email": "naxid@mail.com",
+      "id": 16
+    },
+    {
+      "username": "JABDJKASBDAD",
+      "password": "ADHASBHJAD",
+      "balance": "503",
+      "email": "AHSDSAHDSAD@MAIL",
+      "id": 17
+    },
+    {
+      "username": "Nobis reprehenderit ",
+      "password": "Pa$$w0rd!",
+      "balance": "450",
+      "email": "faliso@mailinator.com",
+      "id": 18
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "image": "https://extensionesp.files.wordpress.com/2022/09/pexels-photo-1510392.jpeg?w=863&h=1&crop=1",
+      "Type": "Fruit",
+      "Price": "Rs 80 / kg"
+    },
+    {
+      "id": 2,
+      "name": "Guava",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0FMSZ5RLc0h2t3OBzyg2AO9lZQoWiG7Ae6w&usqp=CAU",
+      "Type": "Fruit",
+      "Price": "Rs 80 / kg"
+    },
+    {
+      "id": 3,
+      "name": "Grapes",
+      "image": "https://media.istockphoto.com/id/489520104/photo/green-grape-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=9kg_3pMeBKYnHHjx2JECF61QwzxTikLaQ2w-6A5tOO0=",
+      "Type": "Fruit",
+      "Price": "Rs 100 / kg"
+    },
+    {
+      "id": 4,
+      "name": "Bananas",
+      "image": "https://staticg.sportskeeda.com/editor/2022/10/8f0da-16670611582560-1920.jpg",
+      "Type": "Fruit",
+      "Price": "Rs 90 / kg"
+    },
+    {
+      "id": 5,
+      "name": "Oranges",
+      "image": "https://www.allrecipes.com/thmb/y_uvjwXWAuD6T0RxaS19jFvZyFU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1205638014-2000-d0fbf9170f2d43eeb046f56eec65319c.jpg",
+      "Type": "Fruit",
+      "Price": "Rs 30 / kg"
+    },
+    {
+      "id": 6,
+      "name": "Water Melon",
+      "image": "https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/watermelon.jpg?itok=6EdNOdUo",
+      "Type": "Fruit",
+      "Price": "Rs 30 / kg"
+    },
+    {
+      "id": 7,
+      "name": "Carrot",
+      "image": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/04/23175719/shutterstock_440493100-1.jpg",
+      "Type": "Vegetable",
+      "Price": "Rs 30 / kg"
+    },
+    {
+      "id": 8,
+      "name": "Potato",
+      "image": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/04/23175719/shutterstock_440493100-1.jpg",
+      "Type": "Vegetable",
+      "Price": "Rs 60 / kg"
+    },
+    {
+      "id": 9,
+      "name": "Tomato",
+      "image": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/04/23175719/shutterstock_440493100-1.jpg",
+      "Type": "Vegetable",
+      "Price": "Rs 50 / kg"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
+      "about": "Is a pizza a pizza without cheese?Food historians trace pizza's origins to Naples, Italy, in the 1800s, and note that it wasn't until 1889 that cheese was added as a topping"
+    },
+    {
+      "id": 2,
+      "name": "Lahmacun",
+      "picture": "https://cdn.yemek.com/mnresize/1250/833/uploads/2019/05/evde-lahmacun-keyfi-yemekcom.jpg",
+      "about": "İngilis dilindən tərcümə edilib-Lahmacun və ya Lahmadjo, üzərinə doğranmış ət, doğranmış tərəvəzlər və soğan, sarımsaq, pomidor, qırmızı bibər və cəfəri daxil olmaqla"
+    },
+    {
+      "id": 3,
+      "name": "Hamburger",
+      "picture": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg",
+      "about": "İngilis dilindən tərcümə edilib-Hamburger və ya sadəcə burger, dilimlənmiş çörək və ya çörək rulonunun içərisinə qoyulan içliklərdən ibarət yeməkdir"
+    },
+    {
+      "id": 4,
+      "name": "Shaurma",
+      "picture": "https://imageproxy.wolt.com/venue/5e735b0e9726d7fa7a22c814/c20b8dec-5fc0-11eb-9707-6e1da3b91bff_c8b6112f_105c_46cb_8819_c01eb41900aa.png",
+      "about": "Bir zəng yetər ki, ən dadlı shaurma, bol pendirli və bol ləzzətli pizza, içinizi fərahladacaq sərin içkilər birbaşa ünvanınıza gəlsin! Daxilinde kartof moynez lavas toyuq eti"
+    }
+  ]
+}

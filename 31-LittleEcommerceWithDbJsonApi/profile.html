@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="./profile.css">
+</head>
+
+<body>
+    <div class="card" data-state="#about">
+        <div class="card-header">
+            <img class="card-avatar"
+                src="https://img.freepik.com/free-vector/cute-robot-holding-clipboard-cartoon-vector-icon-illustration-science-technology-icon-isolated_138676-5184.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698624000&semt=ais"
+                alt="avatar" />
+            <h1 class="card-fullname">Cute Robot</h1>
+            <h2 class="card-jobtitle">Front-end Developer</h2>
+        </div>
+        <div class="card-main">
+            <div class="card-section is-active" id="about">
+                <div class="card-content">
+                    <div class="card-subtitle">ABOUT</div>
+                    <p class="card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="card-social">
+                    <a href="#">
+                       <p><i class="fa-brands fa-facebook"></i></p> 
+                    </a>
+                    <a href="#">
+                       <p><i class="fa-brands fa-twitter"></i></p>
+                    </a>
+                    <a href="#">
+                       <p><i class="fa-brands fa-instagram"></i></p>
+                    </a>
+                    <a href="#">
+                       <p><i class="fa-brands fa-linkedin-in"></i></p>
+                    </a>
+                </div>
+            </div>
+            <div class="card-section" id="experience">
+                <div class="card-content">
+                    <div class="card-subtitle">WORK EXPERIENCE</div>
+                    <div class="card-timeline">
+                        <div class="card-item" >
+                            <div class="card-item-title">
+                                Front-end developer at <span>JobForm</span>
+                            </div>
+                            <div class="card-item-desc">
+                                Lorem ipsum dolor sit
+                            </div>
+                        </div>
+                        <div class="card-item" >
+                            <div class="card-item-title">
+                                UI developer at <span>GitHub</span>
+                            </div>
+                            <div class="card-item-desc">
+                               Lorem ipsum dolor sit 
+                            </div>
+                        </div>
+                        <div class="card-item" >
+                            <div class="card-item-title">
+                                HTML Css <span>JavaScript</span>
+                            </div>
+                            <div class="card-item-desc">
+                                Lorem ipsum dolor sit 
+                            </div>
+                        </div>
+                        <div class="card-item" >
+                            <div class="card-item-title">
+                                Full-Stack Developer  
+                            </div>
+                            <div class="card-item-desc">
+                               Lorem ipsum, dolor sit
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <div class="card-subtitle">CONTACT</div>
+                    <div class="card-contact-wrapper">
+                        <div class="card-contact">
+                          <p> <i class="fa-solid fa-location-dot"></i> </p>
+                           Azerbaijan,Sumgait
+                        </div>
+                        <div class="card-contact">
+                           <p> <i class="fa-solid fa-phone"></i> </p>
+                            +(994) 55 555 55 55
+                        </div>
+                        <div class="card-contact">
+                           <p> <i class="fa-solid fa-envelope"></i> </p>
+                            NahidMemmedov123@gmail.com
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button data-section="#about" class="is-active">ABOUT</button>
+                <button data-section="#experience">EXPERIENCE</button>
+                <button data-section="#contact">CONTACT</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./profile.js"></script>
+
+</html>

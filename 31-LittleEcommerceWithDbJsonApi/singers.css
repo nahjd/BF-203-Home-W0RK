@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    width: 100%;
+    height: 85px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,255,0,1) 0%, rgba(25,234,121,1) 71%, rgba(16,226,171,1) 100%, rgba(0,212,255,1) 100%);
+}
+nav{
+    height: 100%;
+}
+
+.inner-div{
+    height: 100%;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.links{
+    list-style: none;
+    margin: 0;
+}
+.links li{
+    border: none;
+    margin-right: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.container-singer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 65px;
+}
+.search{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardlist{
+  
+    gap: 30px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.card{
+    height: 500px;
+    overflow: hidden;
+}
+.card-body{
+    margin-top: 5px;
+}

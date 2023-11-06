@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"
+      integrity="sha512-WrdC3CE9vf1nBf58JHepuWT4x24uTacky9fuzw2g/3L9JkihgwZ6Cfv+JGTtNyosOhEmttMtEZ6H3qJWfI7gIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <!-- <form class="login_form"  method="post" name="form" ></form>  -->
+      <!-- <div class="font">Email or Phone</div>
+                <input autocomplete="off" type="text" name="email">
+                <div id="email_error">Please fill up your Email or Phone</div>
+                <div class="font font2">Password</div>
+                <input type="password" name="password">
+                <div id="pass_error">Please fill up your Password</div>
+                <input type="password" name="password"> -->
+      <form id="login-form">
+          <input
+            class="login-username"
+            type="text"
+            name="username"
+            placeholder="Enter Username"
+            required
+          />
+          <br />
+          <input
+            class="login-password"
+            type="password"
+            name="password"
+            placeholder="Enter password"
+            required
+          />
+          <button type="submit">Login</button>
+        </form>
+      <p>Dont you have account?<a href="./register.html">Registr</a></p>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>
