@@ -1,27 +1,25 @@
-import React from 'react'
-import Header from "./../../layout/header"
+import React from "react";
+import Header from "./../../layout/header";
+import Card from "./../../components/card";
 import { v4 as uuidv4 } from "uuid";
-import Container from '@mui/material/Container';
-import Grid from "@mui/material.Grid"
-import Card from "./../../components/card"
-function Favorites({ basketFav, setBasketFav }) {
-    return (
-        <div>
-            <Header />
-            <Container maxWidth="xl">
-                <Grid container spacing={2}>
-                    {
-                        basketFav &&
-                        basketFav.favorites?.map((prod) => {
-                            return <Card key={uuidv4()} />
-                        })
-                    }
-                </Grid>
-            </Container>
+import Grid from "@mui/material/Grid";
 
-        </div>
-    )
+import Container from "@mui/material/Container";
+function Favorites({ basketFav, setBasketFav }) {
+  console.log(basketFav);
+  return (
+    <div>
+      <Header />
+      <Container maxWidth="xl">
+        <Grid container spacing={2}>
+          {basketFav &&
+            basketFav.favorites?.map((prod) => {
+              return <Card key={uuidv4()} product={prod} />;
+            })}
+        </Grid>
+      </Container>
+    </div>
+  );
 }
 
-export default Favorites
-
+export default Favorites;
