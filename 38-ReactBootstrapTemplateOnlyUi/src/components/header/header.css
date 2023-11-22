@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.card {
+    border: none;
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHllbGxvdyUyMHBlbmNpbHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-color: #F5BE00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    min-height:70vh;
+    margin: 0px;
+
+}
+.card h1{
+    font-size: 80px;
+}
+.card h3{
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.btn{
+    background-color: #1D809F;
+    color: white;
+   /* border-radius: 8px; */
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;  
+    margin-left: 25px;
+}

@@ -1,0 +1,44 @@
+.white{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:50vh;
+    margin: 0px;
+  }
+
+.bigdiv{
+    /* border: 1px solid red; */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: white;
+  }
+  .whitetable button:hover{
+    background-color: rgb(17, 17, 17);
+  }
+  .whitetable h1{
+    font-size: 35px;
+  }
+  .whitetable span{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(47, 46, 46);
+  }
+  .btn1{
+    border: 0px solid black;
+    background-color: black;
+    color: white;
+   /* border-radius: 8px; */
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
+    cursor: pointer;
+}

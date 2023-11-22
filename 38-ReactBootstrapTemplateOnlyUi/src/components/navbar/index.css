@@ -1,0 +1,17 @@
+.menu{
+    position: fixed;
+    max-width: 50px;
+    min-height: 50px;
+    top: 15px;
+    right: 15px;
+    border: none;
+  
+    
+}
+.menu-bar{
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 10px;
+}

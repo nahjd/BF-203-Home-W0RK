@@ -1,0 +1,43 @@
+.services {
+    min-height: 500px;
+    background-color: #1d809f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services p:first-child {
+    color: #ecb807;
+    font-weight: bold;
+}
+.services h1 {
+    font-size: 3rem;
+    margin-bottom: 49px;
+    color: white;
+}
+.category{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cart{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+   
+    width: 350px;
+    height: 250px;
+    
+  
+}
+.icon{
+    margin: 0 auto;
+    background-color: white;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    font-size: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

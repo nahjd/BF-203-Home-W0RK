@@ -1,0 +1,37 @@
+.click{
+    margin-top: 250px;
+    height: 30vh;
+    background-color: #1D809F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.click h1{
+    color: white;
+}
+.btn4{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: rgb(142, 142, 142);
+}
+.btn5{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn5:hover{
+    background-color: rgb(74, 72, 72);
+}
